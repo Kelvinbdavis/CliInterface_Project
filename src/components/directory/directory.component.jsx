@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Sections from './directory.data.js'
 import MenuItem from '../menu-item/menu-items.component';
 import './directory.style.scss'
@@ -6,7 +6,7 @@ import './directory.style.scss'
 
 const Directory = () => {
 
-    const [sections] = useState(Sections)
+    const sections = Sections;
     return (
         <div className="directory-menu">
 
