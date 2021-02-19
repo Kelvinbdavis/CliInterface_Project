@@ -24,7 +24,9 @@ function App() {
               id: snapShot.id,
               ...snapShot.data()
             })
+          console.log(currentUser)
         });
+
       }
       else {
         setCurrentUser(userAuth)
