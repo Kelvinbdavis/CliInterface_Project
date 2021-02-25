@@ -35,7 +35,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
 
     return userRef;
-
 }
 
 firebase.initializeApp(config)
@@ -45,6 +44,7 @@ export const firestore = firebase.firestore();
 
 const provider = new firebase.auth.GoogleAuthProvider();
 provider.setCustomParameters({ prompt: 'select_account' })
+
 export const signInWithGoogle = () => auth.signInWithPopup(provider)
 
 export default firebase;

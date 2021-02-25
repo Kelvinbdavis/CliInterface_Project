@@ -18,16 +18,16 @@ const SignUp = () => {
     const handleSumbit = async event => {
         event.preventDefault();
         if (password !== confirmPassword) {
-            alert('Passwords dont match.')
+            alert('Password Dont Match')
             return;
         }
         try {
             const { user } = await auth.createUserWithEmailAndPassword(email, password);
             await createUserProfileDocument(user, { displayName })
-            setDisplayName("")
-            setEmail("")
-            setPassword("")
-            setConfirmPassword("")
+            setDisplayName('')
+            setEmail('')
+            setPassword('')
+            setConfirmPassword('')
         } catch (error) {
             console.log(error)
         }
