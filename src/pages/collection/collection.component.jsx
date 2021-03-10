@@ -10,11 +10,15 @@ import './collection.styles.scss'
 
 const CollectionPage = ({ match }) => {
     const collection = useSelector(state => selectCollection(match.params.collectionId)(state))
+    const { title, items } = collection;
     console.log(collection)
     return (
 
-        <div className="collection">
-            <h2 className="">Collection PAGE</h2>
+        <div className="collection-page">
+            <h2 className="title">{title}</h2>
+            <div className="items">
+                {items.map(item => <CollectionItem key={item.id} item={item} />)}
+            </div>
         </div>
     )
 }
