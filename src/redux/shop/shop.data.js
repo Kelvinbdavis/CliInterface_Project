@@ -1,245 +1,245 @@
 const SHOP_DATA = {
-  hats: {
+  indicas: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Indicas',
+    routeName: 'indicas',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Green Goblin',
+        imageUrl: 'https://cdn.pixabay.com/photo/2014/09/16/19/52/cannabis-448661_1280.jpg',
+        price: 40
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Northern Lights',
+        imageUrl: 'https://cdn.pixabay.com/photo/2017/02/28/14/50/weed-2105966_1280.jpg',
+        price: 60
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'E.T Phone Home',
+        imageUrl: 'https://cdn.pixabay.com/photo/2018/11/07/19/00/bud-3801028_1280.jpg',
+        price: 75
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'OG Bobby Kush',
+        imageUrl: 'https://media.istockphoto.com/photos/bowl-of-buds-at-marijuana-dispensary-picture-id1129030847?s=612x612',
+        price: 40
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Milk Shake',
+        imageUrl: 'https://cdn.pixabay.com/photo/2017/07/03/22/11/flowers-2469212_1280.jpg',
+        price: 50
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Orange Kush',
+        imageUrl: 'https://cdn.pixabay.com/photo/2018/09/11/15/12/marijuana-3669792_1280.jpg  ',
+        price: 40
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Skyline',
+        imageUrl: 'https://cdn.pixabay.com/photo/2018/09/11/15/12/marijuana-3669791_1280.jpg',
+        price: 80
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Blue Haze',
+        imageUrl: 'https://cdn.pixabay.com/photo/2020/04/02/13/45/marijuana-4995231_1280.jpg',
+        price: 50
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Hulk',
+        imageUrl: 'https://cdn.pixabay.com/photo/2020/04/02/13/45/marijuana-4995234_1280.jpg',
+        price: 45
       }
     ]
   },
-  sneakers: {
+  sativas: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Sativas',
+    routeName: 'sativas',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Pressure Cooker OG',
+        imageUrl: 'https://images.unsplash.com/photo-1597354880079-178a8bf8ad54?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80',
+        price: 50
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Yellow Haze',
+        imageUrl: 'https://images.unsplash.com/photo-1589141356951-6b32140e97ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
+        price: 100
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: 'Widow Haze',
+        imageUrl: 'https://cdn.pixabay.com/photo/2015/05/09/17/29/weed-759987_1280.jpg',
+        price: 80
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Kush Face Killa',
+        imageUrl: 'https://cdn.pixabay.com/photo/2016/05/26/20/44/cannabis-1418339_1280.jpg',
+        price: 60
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Fuzzy Kushkins',
+        imageUrl: 'https://cdn.pixabay.com/photo/2018/11/03/17/45/addiction-3792495_1280.jpg',
+        price: 80
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
+        name: 'Los Regalos',
+        imageUrl: 'https://cdn.pixabay.com/photo/2016/05/25/05/51/marijuana-1414002__480.jpg',
+        price: 80
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
+        name: 'Easy Blazer',
+        imageUrl: 'https://cdn.pixabay.com/photo/2017/07/18/22/22/weed-2517248_1280.jpg',
+        price: 50
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        name: 'Rocky Mountain Kush',
+        imageUrl: 'https://cdn.pixabay.com/photo/2018/02/01/01/39/herbal-3122362_1280.jpg',
         price: 200
       }
     ]
   },
-  jackets: {
+  hybrids: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Hybrids',
+    routeName: 'hybrids',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'Mystery Kush',
+        imageUrl: 'https://images.unsplash.com/photo-1583511335492-7953f39ce779?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=925&q=80',
+        price: 70
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'Jackie Kennedy',
+        imageUrl: 'https://images.unsplash.com/photo-1518465444133-93542d08fdd9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80',
+        price: 50
       },
       {
         id: 20,
         name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        imageUrl: 'https://images.unsplash.com/photo-1457573399415-1154bfe3ff71?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80',
+        price: 45
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'Kushala',
+        imageUrl: 'https://images.unsplash.com/photo-1518465444133-93542d08fdd9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80',
+        price: 80
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'Hazy Southern lights',
+        imageUrl: 'https://images.unsplash.com/photo-1457573526299-599d0da92f88?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
+        price: 30
       }
     ]
   },
-  womens: {
+  edibles: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Edibles',
+    routeName: 'edibles',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Gummies',
+        imageUrl: 'https://images.unsplash.com/photo-1579911098863-2324d6914c01?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
         price: 25
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        name: 'Coffee Bean Brownie',
+        imageUrl: 'https://images.unsplash.com/photo-1597511325152-3189b2b71ef1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80',
+        price: 12
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Lemon Zinger Cookie',
+        imageUrl: 'https://images.unsplash.com/photo-1599177749907-a8e5f4847826?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        price: 10
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        name: 'Chocolate Covered Almonds',
+        imageUrl: 'https://images.unsplash.com/photo-1597093218509-c140b5eea420?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: 80
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        name: 'CBD Gummies',
+        imageUrl: 'https://images.unsplash.com/photo-1579803988215-7a9ac7d5b988?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
         price: 45
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        name: 'Dark Chocolate',
+        imageUrl: 'https://images.unsplash.com/photo-1598052162699-cfeea305880d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        price: 12
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        name: 'Nano Gummies',
+        imageUrl: 'https://images.unsplash.com/photo-1610740657130-a651af0642a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: 20
       }
     ]
   },
-  mens: {
+  accessories: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'Simplistic Globe Bong',
+        imageUrl: 'https://images.unsplash.com/photo-1592410115363-e8dc156e4113?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80  ',
+        price: 175
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: 'The Honey Comb',
+        imageUrl: 'https://images.unsplash.com/photo-1591749212788-ed9a6f30720a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        price: 100
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: 'Vaporizer, The Clear',
+        imageUrl: 'https://images.unsplash.com/photo-1606753113192-59011d2dad85?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        price: 75
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Stainless Steel Grinder',
+        imageUrl: 'https://images.unsplash.com/photo-1581778571499-eeb4e051872a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80',
+        price: 30
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: ' Golden Grinder',
+        imageUrl: 'https://images.unsplash.com/photo-1513114412776-6169617cdcf3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8&auto=format&fit=crop&w=600&q=60',
+        price: 30
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'Kush Green Glass Pipe',
+        imageUrl: 'https://images.unsplash.com/photo-1525371838672-7812ac8b5d20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: 25
       }
     ]

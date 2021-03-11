@@ -1,37 +1,42 @@
-import logo from '../../assets/indica.jpg';
+import Indica from '../../assets/indica.jpg';
+import Sativa from '../../assets/sativa.jpg';
+import Hybrid from '../../assets/hybrid.jpg';
+import Edibles from '../../assets/edibles.jpg';
+import Accessories from '../../assets/accessories.jpg';
+
 
 const INITIAL_STATE = {
     sections: [
         {
-            title: 'hats',
-            imageUrl: logo,
-            linkUrl: 'shop/hats'
+            title: 'indicas',
+            imageUrl: Indica,
+            linkUrl: 'shop/indicas'
         },
         {
-            title: 'jackets',
-            imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+            title: 'sativas',
+            imageUrl: Sativa,
             id: 2,
-            linkUrl: 'shop/jackets'
+            linkUrl: 'shop/sativas'
         },
         {
-            title: 'sneakers',
-            imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+            title: 'hybrids',
+            imageUrl: Hybrid,
             id: 3,
-            linkUrl: 'shop/sneakers'
+            linkUrl: 'shop/hybrids'
         },
         {
-            title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            title: 'edibles',
+            imageUrl: Edibles,
             size: 'large',
             id: 4,
-            linkUrl: 'shop/womens'
+            linkUrl: 'shop/edibles'
         },
         {
-            title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            title: 'accessories',
+            imageUrl: Accessories,
             size: 'large',
             id: 5,
-            linkUrl: 'shop/mens'
+            linkUrl: 'shop/accessories'
         }
     ]
 }

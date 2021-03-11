@@ -9,6 +9,15 @@
       height: 100%;
       width: 70px;
     }
+    .title{
+      font-size: 35px;
+      width: 100%;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-left: 30px;
+    }
+
   
     .options {
       width: 50%;
@@ -16,7 +25,8 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-  
+
+
       .option {
         padding: 10px 15px;
         cursor: pointer;  

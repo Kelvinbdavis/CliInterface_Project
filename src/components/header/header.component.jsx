@@ -22,7 +22,7 @@ const Header = () => {
         <Link className='logo-container' to="/">
             <Logo className='logo' />
         </Link>
-        <h2 className="options ">KUSH KONNECTION</h2>
+        <h2 className="title">KUSH KONNECTION</h2>
         <div className="options">
             <Link className="option" to='/shop'>
                 SHOP
