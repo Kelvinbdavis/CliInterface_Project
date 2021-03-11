@@ -1,9 +1,10 @@
+import logo from '../../assets/indica.jpg';
+
 const INITIAL_STATE = {
     sections: [
         {
             title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-            id: 1,
+            imageUrl: logo,
             linkUrl: 'shop/hats'
         },
         {
